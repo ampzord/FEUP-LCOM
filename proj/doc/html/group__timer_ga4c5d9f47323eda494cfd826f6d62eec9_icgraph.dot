@@ -1,0 +1,19 @@
+digraph "timer_subscribe_int"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node13 [label="timer_subscribe_int",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="gameLoop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#gae3fcb6ab83836a82d8ab58a853667cba",tooltip="Main function for the game. Controls all interrupts of the peripherals and calls auxiliary functions..."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4"];
+  Node13 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="selectionHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___menu.html#ga2c4c4891001199cf42c066c2b2eab521",tooltip="Handles the main menu options. "];
+  Node16 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="pauseMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___menu.html#ga6256ad5a883392425d4ffbb78f5cb369",tooltip="Handles the pause menu options. "];
+  Node17 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="timer_test_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timer.html#ga459859709b7cc1ee37899fa48cce6a6e",tooltip="Tests Timer 0 interrupt handling. "];
+}

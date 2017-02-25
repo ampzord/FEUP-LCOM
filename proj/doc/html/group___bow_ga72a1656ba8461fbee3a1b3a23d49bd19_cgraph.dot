@@ -1,0 +1,32 @@
+digraph "mouseMovement"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node280 [label="mouseMovement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node280 -> Node281 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node281 [label="mouse_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___mouse.html#ga1d865d087780c7f07862aa420ca32182",tooltip="Reads packets from keyboard controller. "];
+  Node281 -> Node282 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node282 [label="resetPackets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___mouse.html#ga118d7812788fa2e952c48f01fe8d2064",tooltip="Resets values from the packets. "];
+  Node281 -> Node283 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node283 [label="setMousePackets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___mouse.html#gabc2eb979929eb923e5a41ed65523f97e",tooltip="Fills the mouse_t structure with correct values. "];
+  Node280 -> Node284 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node284 [label="isCorrectMovement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___mouse.html#gafea888e95c8b8e337be93f59364d6018",tooltip="Checks if the movement of the mouse is overflowed or signed. "];
+  Node280 -> Node285 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node285 [label="heroMovementInsideScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___hero.html#ga5e6a11f92e202c20c64dbe507eefcec4",tooltip="Checks if hero movement is possible (inside the screen) "];
+  Node280 -> Node286 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node286 [label="updateHeroPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___hero.html#gac4a1b1e313a925aba51f80636e799063",tooltip="Updates the hero position according to the mouse movemtn. "];
+  Node280 -> Node287 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node287 [label="isHeroRestingWithoutArrow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___hero.html#gac899cedc673b6bb42cdf457c948f61b6",tooltip="Checks if hero is resting without arrow. "];
+  Node280 -> Node288 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node288 [label="isRightButtonPressed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___mouse.html#ga94880851c6cbd83d7b77dafade71c8d7",tooltip="Checks if the mouse right button is pressed. "];
+  Node280 -> Node289 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node289 [label="getNumberOfArrows",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___hero.html#ga6d2126f76d2c6928d02780536989093e",tooltip="Gets the current number of arrows of the hero. "];
+  Node280 -> Node290 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node290 [label="setHeroRestingWithArrow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___hero.html#ga9df992675e634c0776b5d7b9a7463ff2",tooltip="Makes the hero in &#39;rest position&#39; with an arrow assigned. "];
+  Node290 -> Node291 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node291 [label="loadBitmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bitmap.html#ga3506880ffd407c36eb8aaddd2c1606d2",tooltip="Loads a bmp image. "];
+  Node280 -> Node292 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node292 [label="setHeroRestingWithoutArrow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___hero.html#ga1a5faa1bd7f20ec6050a5eca6d619ee7",tooltip="Makes the hero be in &#39;rest position&#39; with no arrow assigned. "];
+  Node292 -> Node291 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

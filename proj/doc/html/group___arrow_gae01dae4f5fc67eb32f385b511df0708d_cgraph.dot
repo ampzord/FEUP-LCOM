@@ -1,0 +1,15 @@
+digraph "drawArrow"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7 [label="drawArrow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="drawBitmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video__gr_8c.html#a6652acd82369d03df807a689437efc1b"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="getHRES",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga62a06f3a0dc2bfe74941b60f3f0e4294"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="getVRES",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga200a747d2cbe6ff688b650fa5972dcec"];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="colorPixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga14840e6cba314a5c6122c1ddde7261f2"];
+}

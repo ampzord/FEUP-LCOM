@@ -1,0 +1,39 @@
+digraph "selectionHandler"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22 [label="selectionHandler",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="createMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___menu.html#gaf67011264889c61fb7fa3d6527f223f2",tooltip="Creates a new instance of Menu, allocating memory for it. "];
+  Node22 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="loadBitmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bitmap.html#ga3506880ffd407c36eb8aaddd2c1606d2",tooltip="Loads a bmp image. "];
+  Node22 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="timer_subscribe_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timer.html#ga4c5d9f47323eda494cfd826f6d62eec9",tooltip="Subscribes and enables Timer 0 interrupts. "];
+  Node22 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="kbd_subscribe_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__kbd.html#ga77e2ed8f53e0fae3f4005fa26c6d2692",tooltip="Subscribes interruptions of keyboard. "];
+  Node22 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="getHRES",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga62a06f3a0dc2bfe74941b60f3f0e4294"];
+  Node22 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="getVRES",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga200a747d2cbe6ff688b650fa5972dcec"];
+  Node22 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="getBitsPerPixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga5c30cdd3eab0edd2734ab3871f7000c7"];
+  Node22 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="drawBitmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video__gr_8c.html#a6652acd82369d03df807a689437efc1b"];
+  Node30 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="colorPixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga14840e6cba314a5c6122c1ddde7261f2"];
+  Node22 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="changeVideoMem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga28a4be6d6081070b52fcb7fd689ec6f6"];
+  Node22 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="kbd_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__kbd.html#ga3c70a049a956e2b3289ae75492aef574",tooltip="Reads information from keyboard controller. "];
+  Node33 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="readInfoFromKBD",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__kbd.html#ga2b63f692e25bd6dd08f7b3d0db346923",tooltip="Reads information from keyboard controller. "];
+  Node22 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="kbd_unsubscribe_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__kbd.html#ga5bdf6cfb570c375192b0d87913b65c57",tooltip="Unsubscribes interruptions of keyboard. "];
+  Node22 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="timer_unsubscribe_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timer.html#gab9eea51549744bca5c5c923b388bb4ee",tooltip="Unsubscribes Timer 0 interrupts. "];
+  Node22 -> Node37 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="deleteBitmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bitmap.html#ga08c1d4f4fff81df260d979ea8fc1aa61",tooltip="Draws an unscaled, unrotated bitmap at the given position. "];
+}

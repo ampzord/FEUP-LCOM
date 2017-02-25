@@ -1,0 +1,15 @@
+digraph "showHeroLoseScreen"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node305 [label="showHeroLoseScreen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node305 -> Node306 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node306 [label="drawBitmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video__gr_8c.html#a6652acd82369d03df807a689437efc1b"];
+  Node306 -> Node307 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node307 [label="getHRES",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga62a06f3a0dc2bfe74941b60f3f0e4294"];
+  Node306 -> Node308 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node308 [label="getVRES",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga200a747d2cbe6ff688b650fa5972dcec"];
+  Node306 -> Node309 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node309 [label="colorPixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga14840e6cba314a5c6122c1ddde7261f2"];
+}

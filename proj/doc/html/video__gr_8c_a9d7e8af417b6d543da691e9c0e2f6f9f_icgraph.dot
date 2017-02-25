@@ -1,0 +1,16 @@
+digraph "clearScreen"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="clearScreen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="updateScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#ga53417cd25bc8832760fcaf2964eae773",tooltip="Handles all events related to updating screen every interruption of the timer. "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="gameLoop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#gae3fcb6ab83836a82d8ab58a853667cba",tooltip="Main function for the game. Controls all interrupts of the peripherals and calls auxiliary functions..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4"];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="keyboardUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#gaa13cebcbe2531a9d4449bca30396dc85",tooltip="Handles all events related to keyboard inputs. "];
+  Node7 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

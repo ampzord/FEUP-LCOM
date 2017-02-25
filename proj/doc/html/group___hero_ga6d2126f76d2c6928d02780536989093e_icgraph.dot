@@ -1,0 +1,25 @@
+digraph "getNumberOfArrows"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node32 [label="getNumberOfArrows",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node32 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="updateArrowNumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#ga912b97039085748ea931e119dda4af6f",tooltip="Checks the number of arrows available on the hero and prints it on screen. "];
+  Node33 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="updateScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#ga53417cd25bc8832760fcaf2964eae773",tooltip="Handles all events related to updating screen every interruption of the timer. "];
+  Node34 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="gameLoop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#gae3fcb6ab83836a82d8ab58a853667cba",tooltip="Main function for the game. Controls all interrupts of the peripherals and calls auxiliary functions..."];
+  Node35 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4"];
+  Node32 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="checkIfLoseGame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#gae1478322c95e50e2bef35997cc5617d5",tooltip="Checks if the game is lost. "];
+  Node37 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="mouseMovement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#ga72a1656ba8461fbee3a1b3a23d49bd19",tooltip="Handles all events related to mouse movement. "];
+  Node38 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="keyboardUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#gaa13cebcbe2531a9d4449bca30396dc85",tooltip="Handles all events related to keyboard inputs. "];
+  Node39 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

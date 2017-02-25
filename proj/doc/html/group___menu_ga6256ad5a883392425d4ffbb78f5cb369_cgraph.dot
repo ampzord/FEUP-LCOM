@@ -1,0 +1,33 @@
+digraph "pauseMenu"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="pauseMenu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="createMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___menu.html#gaf67011264889c61fb7fa3d6527f223f2",tooltip="Creates a new instance of Menu, allocating memory for it. "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="loadBitmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bitmap.html#ga3506880ffd407c36eb8aaddd2c1606d2",tooltip="Loads a bmp image. "];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="timer_subscribe_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timer.html#ga4c5d9f47323eda494cfd826f6d62eec9",tooltip="Subscribes and enables Timer 0 interrupts. "];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="kbd_subscribe_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__kbd.html#ga77e2ed8f53e0fae3f4005fa26c6d2692",tooltip="Subscribes interruptions of keyboard. "];
+  Node6 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="getHRES",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga62a06f3a0dc2bfe74941b60f3f0e4294"];
+  Node6 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="getVRES",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga200a747d2cbe6ff688b650fa5972dcec"];
+  Node6 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="getBitsPerPixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga5c30cdd3eab0edd2734ab3871f7000c7"];
+  Node6 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="drawBitmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$video__gr_8c.html#a6652acd82369d03df807a689437efc1b"];
+  Node14 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="colorPixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga14840e6cba314a5c6122c1ddde7261f2"];
+  Node6 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="changeVideoMem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga28a4be6d6081070b52fcb7fd689ec6f6"];
+  Node6 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="kbd_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__kbd.html#ga3c70a049a956e2b3289ae75492aef574",tooltip="Reads information from keyboard controller. "];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="readInfoFromKBD",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__kbd.html#ga2b63f692e25bd6dd08f7b3d0db346923",tooltip="Reads information from keyboard controller. "];
+}

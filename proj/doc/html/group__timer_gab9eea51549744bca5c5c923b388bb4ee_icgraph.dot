@@ -1,0 +1,16 @@
+digraph "timer_unsubscribe_int"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node32 [label="timer_unsubscribe_int",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node32 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="gameLoop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#gae3fcb6ab83836a82d8ab58a853667cba",tooltip="Main function for the game. Controls all interrupts of the peripherals and calls auxiliary functions..."];
+  Node33 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4"];
+  Node32 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="selectionHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___menu.html#ga2c4c4891001199cf42c066c2b2eab521",tooltip="Handles the main menu options. "];
+  Node35 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="timer_test_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timer.html#ga459859709b7cc1ee37899fa48cce6a6e",tooltip="Tests Timer 0 interrupt handling. "];
+}

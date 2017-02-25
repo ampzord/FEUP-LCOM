@@ -1,0 +1,25 @@
+digraph "setBalloonHit"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node81 [label="setBalloonHit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node81 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 [label="blowAllBalloonsFirstLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#gab15c2619ee8f4ef5fe5a8332b2937070",tooltip="Makes all balloons go blown on the first level. This function is for testing purposes only..."];
+  Node82 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="blowCurrentLevelBalloons",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#ga31d93874c2b5982c602712f1e04ab17b",tooltip="Blows balloons whether the stage is first or second. "];
+  Node83 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="keyboardUpdate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#gaa13cebcbe2531a9d4449bca30396dc85",tooltip="Handles all events related to keyboard inputs. "];
+  Node84 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="gameLoop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#gae3fcb6ab83836a82d8ab58a853667cba",tooltip="Main function for the game. Controls all interrupts of the peripherals and calls auxiliary functions..."];
+  Node85 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4"];
+  Node81 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="blowAllBalloonsSecondLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#ga9bbf44cbf86d51d4426e4a10f7fb053a",tooltip="Makes all balloons go blown on the second level. This function is for testing purposes only..."];
+  Node87 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node81 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="collisionDetection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#ga9b626f48dcf832ef9784c688ea762c18",tooltip="Handles the collision detection of arrows and balloons. "];
+  Node88 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="updateScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#ga53417cd25bc8832760fcaf2964eae773",tooltip="Handles all events related to updating screen every interruption of the timer. "];
+  Node89 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

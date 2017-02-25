@@ -1,0 +1,9 @@
+digraph "timer_test_square"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node28 [label="timer_test_square",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node28 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="timer_set_square",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timer.html#gada4efbb5c88275795526fc45f0814aa3",tooltip="Configures a timer to generate a square wave. "];
+}

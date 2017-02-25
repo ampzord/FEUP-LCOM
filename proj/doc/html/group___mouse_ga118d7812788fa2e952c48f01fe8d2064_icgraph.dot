@@ -1,0 +1,18 @@
+digraph "resetPackets"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node41 [label="resetPackets",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node41 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="initializeGameSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#ga62cb105a101f564c894496e3018b30d8",tooltip="Resets all global variables and prepares values for the game. "];
+  Node42 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="gameLoop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#gae3fcb6ab83836a82d8ab58a853667cba",tooltip="Main function for the game. Controls all interrupts of the peripherals and calls auxiliary functions..."];
+  Node43 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4"];
+  Node41 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="mouse_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___mouse.html#ga1d865d087780c7f07862aa420ca32182",tooltip="Reads packets from keyboard controller. "];
+  Node45 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="mouseMovement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#ga72a1656ba8461fbee3a1b3a23d49bd19",tooltip="Handles all events related to mouse movement. "];
+  Node46 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

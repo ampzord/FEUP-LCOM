@@ -1,0 +1,23 @@
+digraph "checkIfLoseGame"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node73 [label="checkIfLoseGame",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node73 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node74 [label="getNumberOfArrows",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___hero.html#ga6d2126f76d2c6928d02780536989093e",tooltip="Gets the current number of arrows of the hero. "];
+  Node73 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node75 [label="checkIfAnyArrowInsideScreen\l_firstlevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#ga267f9855f75d2683f65f2b8175a6c985",tooltip="Checks if there are any arrows inside the screen on the first stage of the game. "];
+  Node75 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node76 [label="isArrowInsideScreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___arrow.html#gafaf2455e5e85af811af1c9f2560d88d9",tooltip="This functions tells us if the arrow is inside the screen or not. "];
+  Node73 -> Node77 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 [label="checkIfAnyBalloonIntact\l_firstlevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#gafa0fe720554baed8d060ed1eb8360ccb",tooltip="Checks if there are any intact balloons flying around in the first stage of the game. "];
+  Node77 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 [label="isBalloonIntact",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___balloon.html#gafcd7418ae64648e905fb79f63afba6f8",tooltip="Checks if a balloon is intact or not. "];
+  Node73 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 [label="checkIfAnyArrowInsideScreen\l_secondlevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#gaea5023fbec551151c2d93d2991b127ba",tooltip="Checks if there are any arrows inside the screen on the second stage of the game. ..."];
+  Node79 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node80 [label="checkIfAnyBalloonIntact\l_secondlevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___bow.html#ga0817c0ea0746be9d275a5eea39ddb4a2",tooltip="Checks if there are any intact balloons flying around in the second stage of the game. "];
+  Node80 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

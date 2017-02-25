@@ -1,0 +1,13 @@
+digraph "timer_test_int"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node23 [label="timer_test_int",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node23 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="timer_subscribe_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timer.html#ga4c5d9f47323eda494cfd826f6d62eec9",tooltip="Subscribes and enables Timer 0 interrupts. "];
+  Node23 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="timer_int_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timer.html#ga10fc9c867b15c7da6649311c9987cd17",tooltip="Timer 0 interrupt handler. "];
+  Node23 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="timer_unsubscribe_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__timer.html#gab9eea51549744bca5c5c923b388bb4ee",tooltip="Unsubscribes Timer 0 interrupts. "];
+}
