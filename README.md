@@ -11,7 +11,7 @@ The final project consisted of a remaking of a chillhood game called Bow and Arr
 
 Using the configured PC modules we handled through the class we were able to recreate the essence of the original game.
 
-![game_menu](https://prnt.sc/11e1nce)
+![game_menu](https://github.com/ampzord/FEUP-LCOM/blob/master/pictures/bow_and_arrow_menu.bmp)
 
 Game's menu.
 
