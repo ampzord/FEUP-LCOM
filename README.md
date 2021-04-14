@@ -17,9 +17,9 @@ Images showcasing the final project game:
 
 ![gameplay1](https://github.com/ampzord/FEUP-LCOM/blob/master/pictures/bow_and_arrow_gameplay1.bmp)
 
-![gameplay2]((https://github.com/ampzord/FEUP-LCOM/blob/master/pictures/bow_and_arrow_gameplay2.bmp)
+![gameplay2](https://github.com/ampzord/FEUP-LCOM/blob/master/pictures/bow_and_arrow_gameplay2.bmp)
 
-![gameplay_level2]((https://github.com/ampzord/FEUP-LCOM/blob/master/pictures/bow_and_arrow_level_2_gameplay.bmp)
+![gameplay_level2](https://github.com/ampzord/FEUP-LCOM/blob/master/pictures/bow_and_arrow_level_2_gameplay.bmp)
 
-![won_screen]((https://github.com/ampzord/FEUP-LCOM/blob/master/pictures/bow_and_arrow_won_screen.bmp)
+![won_screen](https://github.com/ampzord/FEUP-LCOM/blob/master/pictures/bow_and_arrow_won_screen.bmp)
 
