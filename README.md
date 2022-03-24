@@ -23,3 +23,7 @@ Images showcasing the final project game:
 
 ![won_screen](https://github.com/ampzord/FEUP-LCOM/blob/master/pictures/bow_and_arrow_won_screen.bmp)
 
+## License
+
+This project is licensed under the terms of the **MIT** [license](https://github.com/ampzord/FEUP-LCOM/blob/master/LICENSE).
+
