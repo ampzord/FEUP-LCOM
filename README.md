@@ -1,5 +1,5 @@
 # LCOM-FEUP
-Repository for LCOM labs and project.
+Repository for Computer Laboratory class @ FEUP.
 
 In this class we used Minix operating system using a Virtual Box where we handled several PC modules such as: 
   - PC's timer/counter
